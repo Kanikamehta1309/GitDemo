@@ -17,5 +17,6 @@ public class Hooks {
 	
 	public void gitTest(){
 		System.out.println("Git Testing in dev mode");
+		System.out.println("added in api framework");
 	}
 }
