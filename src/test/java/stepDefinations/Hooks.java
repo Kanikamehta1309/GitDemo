@@ -14,4 +14,8 @@ public class Hooks {
 		ad.verify_the_of_in_response_code_using("place_id", "QA", "GetPlaceAPI", "GET");
 		}
 	}
+	
+	public void gitTest(){
+		System.out.println("Git Testing in dev mode");
+	}
 }
