@@ -30,6 +30,7 @@ public class AddPlace extends Utils {
 	@Given("^Add Place Request Payload with \"([^\"]*)\" \"([^\"]*)\" \"([^\"]*)\"$")
 	public void add_Place_Request_Payload_with(String name, String language, String address) throws IOException {
 		request = given().spec(requestSpecification()).body(data.AddPlacePayload(name, language, address));
+		System.out.println(response);
 	}
 
 	@When("user calls {string} Http {string} request")
